@@ -13,6 +13,9 @@ Templated-docs
         :target: https://templated-docs.readthedocs.io/en/latest/?badge=latest
         :alt: Documentation Status
 
+.. image:: https://requires.io/github/kiawin/templated-docs/requirements.svg?branch=master
+        :target: https://requires.io/github/kiawin/templated-docs/requirements?branch=master
+        :alt: Dependencies
 
 Generate templated documents within Django in any format supported by
 LibreOffice: texts, spreadsheets, presentations etc.

@@ -96,9 +96,7 @@ def _convert_file(filename, format, result_queue=None, options=None):
             doc.saveAs(str(conv_file.name), options=options)
         os.unlink(filename)
 
-    # type comparison is required instead of isinstance owing to
-    # multiprocessing.Queue is a method
-    if type(result_queue) == multiprocessing.queues.Queue:
+    if result_queue is not None:
         result_queue.put(conv_file.name)
     else:
         return conv_file.name

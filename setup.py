@@ -21,14 +21,14 @@ test_requirements = [
 ]
 
 setup(
-    name='templateddocs',
+    name='jpt-templated-docs',
     version='0.3.3',
     description=('Generate PDF, MS Word and Excel documents from templates '
                  'in Django.'),
     long_description=readme + '\n\n' + history,
     author="Sian Lerk Lau",
     author_email='kiawin@gmail.com',
-    url='https://github.com/kiawin/templated-docs',
+    url='https://github.com/jptd/templated-docs',
     packages=find_packages(),
     include_package_data=True,
     install_requires=requirements,

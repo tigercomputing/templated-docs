@@ -14,6 +14,7 @@ with open('HISTORY.rst') as history_file:
 requirements = [
     'pylokit==0.8.1',
     'django>=1.8,<1.12',
+    'billiard>=3.5.0.2,<3.6.0',
 ]
 
 test_requirements = [
@@ -22,7 +23,7 @@ test_requirements = [
 
 setup(
     name='jpt-templated-docs',
-    version='0.3.3',
+    version='0.3.4',
     description=('Generate PDF, MS Word and Excel documents from templates '
                  'in Django.'),
     long_description=readme + '\n\n' + history,

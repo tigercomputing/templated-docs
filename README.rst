@@ -29,7 +29,7 @@ Requirements
 ------------
 
 * Python 2.7 or 3.4+
-* Django >= 1.8
+* Django >= 2.0
 * A recent LibreOffice version (>=4.3.0) supporting LibreOfficeKit API.
 
 Example usage

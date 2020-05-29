@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-import multiprocessing
+import billiard as multiprocessing
 import os.path
 import re
 from tempfile import NamedTemporaryFile
@@ -24,7 +24,7 @@ from pylokit import Office
 import logging
 log = logging.getLogger(__name__)
 
-__version__ = '0.3.3'
+__version__ = '0.3.4'
 
 
 IMAGES_CONTEXT_KEY = '_templated_docs_imgs'
